@@ -33,6 +33,7 @@ TSArray<T>::TSArray(unsigned s)
 template<typename T>
 TSArray<T>::~TSArray(void)
 {
+	delete d;
 }
 
 template<typename T>
